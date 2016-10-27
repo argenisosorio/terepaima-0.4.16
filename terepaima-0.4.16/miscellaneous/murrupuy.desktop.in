@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=murrupuy
+Icon=qpdfview
+GenericName=tabbed document viewer
+Comment=A tabbed document viewer using Qt and the Poppler library.
+Categories=Viewer;Office;
+Keywords=viewer;document;presentation;pdf;ps;djvu;
+TryExec=murrupuy
+Exec=murrupuy --unique %F
+MimeType=MIME_TYPES
+Actions=ChooseInstance;NonUniqueInstance;
+
+[Desktop Action ChooseInstance]
+Name=Choose instance
+Exec=murrupuy --unique --choose-instance %F
+
+[Desktop Action NonUniqueInstance]
+Name=Non-unique instance
+Exec=murrupuy %F

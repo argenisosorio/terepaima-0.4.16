@@ -3863,7 +3863,7 @@ void MainWindow::on_verify_signature() {
           //qDebug("entro al for: %d", i);
           //qDebug(i+1);
           //printf("  - Signer Certificate Common Name: %s\n", sig_info->getSignerName());
-          qDebug(sig_info->getSignerName());
+          //qDebug(sig_info->getSignerName());
           newmessage += trUtf8("  - Nombre común: %1  \n").arg(sig_info->getSignerName());
           //newmessage += "  \n";
           //printf("  - Signing Time: %s\n", time_str = getReadableTime(sig_info->getSigningTime()));

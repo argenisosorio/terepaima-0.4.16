@@ -70,7 +70,12 @@ Plugin* loadStaticPlugin(const QString& objectName)
 
 Plugin* loadPlugin(const QString& fileName)
 {
-    QPluginLoader pluginLoader(QDir(QApplication::applicationDirPath()).absoluteFilePath(fileName));
+    //QPluginLoader pluginLoader(QDir(QApplication::applicationDirPath()).absoluteFilePath(fileName));
+    QPluginLoader pluginLoader("/usr/lib/terepaima/"+fileName);
+
+    //qDebug("****loadPlugin****");
+    //qDebug() << QDir(QApplication::applicationDirPath()).absoluteFilePath(fileName);
+    //qDebug("******************");
 
     if(!pluginLoader.load())
     {
@@ -78,6 +83,8 @@ Plugin* loadPlugin(const QString& fileName)
         const QString firstErrorString = pluginLoader.errorString();
 
         pluginLoader.setFileName(QDir(PLUGIN_INSTALL_PATH).absoluteFilePath(fileName));
+	//qDebug("loadPlugin failed:");
+        //qDebug() << QDir(QApplication::applicationDirPath()).absoluteFilePath(fileName)  << "endl";
 
         if(!pluginLoader.load())
         {

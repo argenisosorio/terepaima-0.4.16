@@ -1,0 +1,14 @@
+#!/bin/sh
+# postinst script for terepaima
+#
+# see: dh_installdeb(1)
+
+set -e
+
+ln -s /usr/lib/terepaima/libpoppler.so.63.0.0 /usr/lib/terepaima/libpoppler.so
+ln -s /usr/lib/terepaima/libpoppler.so.63.0.0 /usr/lib/terepaima/libpoppler.so.63
+
+ln -s /usr/lib/terepaima/libpoppler-qt5.so.1.7.0 /usr/lib/terepaima/libpoppler-qt5.so
+ln -s /usr/lib/terepaima/libpoppler-qt5.so.1.7.0 /usr/lib/terepaima/libpoppler-qt5.so.1
+
+echo "export LD_LIBRARY_PATH=/usr/lib/terepaima:$LD_LIBRARY_PATH" >> ~/.bashrc

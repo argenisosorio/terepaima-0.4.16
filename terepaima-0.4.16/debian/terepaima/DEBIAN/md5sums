@@ -1,0 +1,11 @@
+6003925fe37e0b140bc26b85de70509b  usr/bin/terepaima
+b3843b351abeb4a0886d06e55f8c1f13  usr/lib/mime/packages/terepaima
+ab329a56782ea0364f7943205f678773  usr/lib/terepaima/libpoppler-qt5.so.1.7.0
+f0b2b45b2f7ff9cb409f12187b86da67  usr/lib/terepaima/libpoppler.so.63.0.0
+fd2572fef570754bcd0885bbe1f4e8b5  usr/lib/terepaima/libqpdfview_djvu.so
+a1185c1e5f8b9e360a8dc04399d7d8df  usr/lib/terepaima/libqpdfview_image.so
+2620befc8bd76242f7b0962ea907a792  usr/lib/terepaima/libqpdfview_pdf.so
+851a48028002652831f820941feaa01f  usr/lib/terepaima/libqpdfview_ps.so
+bf96c15a432c42497cebd4a1f329265a  usr/share/doc/terepaima/changelog.Debian.gz
+44501b06224643f6ab02fe720b64c8db  usr/share/doc/terepaima/changelog.gz
+3ca95da6e5b01492f2f9627aa0a5aac9  usr/share/doc/terepaima/copyright

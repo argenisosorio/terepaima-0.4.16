@@ -1,0 +1,7 @@
+terepaima usr/bin
+libqpdfview_pdf.so usr/lib/terepaima
+libqpdfview_ps.so usr/lib/terepaima
+libqpdfview_image.so usr/lib/terepaima
+libqpdfview_djvu.so usr/lib/terepaima
+libpoppler.so.63.0.0 usr/lib/terepaima
+libpoppler-qt5.so.1.7.0 usr/lib/terepaima

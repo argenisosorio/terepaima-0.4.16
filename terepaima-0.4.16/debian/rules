@@ -5,8 +5,14 @@ DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/buildflags.mk
 export QT_SELECT=qt5
 
+# esta linea permite ignorar la busqueda de un paquete que proporcione
+# una libreria compartida no empaquetada
+override_dh_shlibdeps:
+	dh_shlibdeps --dpkg-shlibdeps-params=--ignore-missing-info
+
 %:
 	dh $@ --parallel
+#	dh_shlibdeps -l/tmp
 
 override_dh_auto_clean:
 	rm -fr miscellaneous/qpdfview.desktop translations/*.qm moc* objects*

@@ -1,0 +1,17 @@
+Package: qpdfview-djvu-plugin
+Source: terepaima
+Version: 0.4.16-1
+Architecture: amd64
+Maintainer: Argenis Osorio (dM) <aosorio@cenditel.gob.ve>
+Installed-Size: 118
+Depends: libc6 (>= 2.14), libdjvulibre21 (>= 3.5.25.4), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.0.2), libqt5gui5 (>= 5.2.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), qpdfview (= 0.4.16-1)
+Section: graphics
+Priority: optional
+Homepage: https://tibisay.cenditel.gob.ve/visorpdf/
+Description: tabbed document viewer - DjVu plugin
+ terepaima is a simple tabbed document viewer which uses the Poppler library for
+ PDF rendering and CUPS for printing and provides a clear and simple Qt
+ graphical user interface. Support for the DjVu and PostScript formats can be
+ added via plugins.
+ .
+ This plugin adds support for the DjVu format.

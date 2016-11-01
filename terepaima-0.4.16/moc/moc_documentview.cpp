@@ -1,25 +1,195 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'documentview.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
 #include "../sources/documentview.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/QList>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'documentview.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.6. It"
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+struct qt_meta_stringdata_qpdfview__DocumentView_t {
+    QByteArrayData data[109];
+    char stringdata[1538];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_qpdfview__DocumentView_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_qpdfview__DocumentView_t qt_meta_stringdata_qpdfview__DocumentView = {
+    {
+QT_MOC_LITERAL(0, 0, 22),
+QT_MOC_LITERAL(1, 23, 15),
+QT_MOC_LITERAL(2, 39, 0),
+QT_MOC_LITERAL(3, 40, 16),
+QT_MOC_LITERAL(4, 57, 20),
+QT_MOC_LITERAL(5, 78, 13),
+QT_MOC_LITERAL(6, 92, 18),
+QT_MOC_LITERAL(7, 111, 11),
+QT_MOC_LITERAL(8, 123, 11),
+QT_MOC_LITERAL(9, 135, 14),
+QT_MOC_LITERAL(10, 150, 8),
+QT_MOC_LITERAL(11, 159, 7),
+QT_MOC_LITERAL(12, 167, 21),
+QT_MOC_LITERAL(13, 189, 14),
+QT_MOC_LITERAL(14, 204, 17),
+QT_MOC_LITERAL(15, 222, 10),
+QT_MOC_LITERAL(16, 233, 10),
+QT_MOC_LITERAL(17, 244, 22),
+QT_MOC_LITERAL(18, 267, 15),
+QT_MOC_LITERAL(19, 283, 16),
+QT_MOC_LITERAL(20, 300, 9),
+QT_MOC_LITERAL(21, 310, 9),
+QT_MOC_LITERAL(22, 320, 18),
+QT_MOC_LITERAL(23, 339, 11),
+QT_MOC_LITERAL(24, 351, 15),
+QT_MOC_LITERAL(25, 367, 8),
+QT_MOC_LITERAL(26, 376, 8),
+QT_MOC_LITERAL(27, 385, 11),
+QT_MOC_LITERAL(28, 397, 4),
+QT_MOC_LITERAL(29, 402, 6),
+QT_MOC_LITERAL(30, 409, 8),
+QT_MOC_LITERAL(31, 418, 18),
+QT_MOC_LITERAL(32, 437, 21),
+QT_MOC_LITERAL(33, 459, 11),
+QT_MOC_LITERAL(34, 471, 19),
+QT_MOC_LITERAL(35, 491, 12),
+QT_MOC_LITERAL(36, 504, 25),
+QT_MOC_LITERAL(37, 530, 18),
+QT_MOC_LITERAL(38, 549, 18),
+QT_MOC_LITERAL(39, 568, 11),
+QT_MOC_LITERAL(40, 580, 22),
+QT_MOC_LITERAL(41, 603, 15),
+QT_MOC_LITERAL(42, 619, 15),
+QT_MOC_LITERAL(43, 635, 19),
+QT_MOC_LITERAL(44, 655, 12),
+QT_MOC_LITERAL(45, 668, 21),
+QT_MOC_LITERAL(46, 690, 14),
+QT_MOC_LITERAL(47, 705, 14),
+QT_MOC_LITERAL(48, 720, 14),
+QT_MOC_LITERAL(49, 735, 21),
+QT_MOC_LITERAL(50, 757, 8),
+QT_MOC_LITERAL(51, 766, 4),
+QT_MOC_LITERAL(52, 771, 4),
+QT_MOC_LITERAL(53, 776, 7),
+QT_MOC_LITERAL(54, 784, 4),
+QT_MOC_LITERAL(55, 789, 11),
+QT_MOC_LITERAL(56, 801, 5),
+QT_MOC_LITERAL(57, 807, 9),
+QT_MOC_LITERAL(58, 817, 7),
+QT_MOC_LITERAL(59, 825, 12),
+QT_MOC_LITERAL(60, 838, 12),
+QT_MOC_LITERAL(61, 851, 12),
+QT_MOC_LITERAL(62, 864, 8),
+QT_MOC_LITERAL(63, 873, 9),
+QT_MOC_LITERAL(64, 883, 8),
+QT_MOC_LITERAL(65, 892, 10),
+QT_MOC_LITERAL(66, 903, 7),
+QT_MOC_LITERAL(67, 911, 6),
+QT_MOC_LITERAL(68, 918, 15),
+QT_MOC_LITERAL(69, 934, 12),
+QT_MOC_LITERAL(70, 947, 14),
+QT_MOC_LITERAL(71, 962, 11),
+QT_MOC_LITERAL(72, 974, 18),
+QT_MOC_LITERAL(73, 993, 9),
+QT_MOC_LITERAL(74, 1003, 11),
+QT_MOC_LITERAL(75, 1015, 4),
+QT_MOC_LITERAL(76, 1020, 9),
+QT_MOC_LITERAL(77, 1030, 10),
+QT_MOC_LITERAL(78, 1041, 12),
+QT_MOC_LITERAL(79, 1054, 12),
+QT_MOC_LITERAL(80, 1067, 12),
+QT_MOC_LITERAL(81, 1080, 8),
+QT_MOC_LITERAL(82, 1089, 10),
+QT_MOC_LITERAL(83, 1100, 5),
+QT_MOC_LITERAL(84, 1106, 6),
+QT_MOC_LITERAL(85, 1113, 7),
+QT_MOC_LITERAL(86, 1121, 12),
+QT_MOC_LITERAL(87, 1134, 10),
+QT_MOC_LITERAL(88, 1145, 11),
+QT_MOC_LITERAL(89, 1157, 17),
+QT_MOC_LITERAL(90, 1175, 33),
+QT_MOC_LITERAL(91, 1209, 22),
+QT_MOC_LITERAL(92, 1232, 19),
+QT_MOC_LITERAL(93, 1252, 29),
+QT_MOC_LITERAL(94, 1282, 29),
+QT_MOC_LITERAL(95, 1312, 26),
+QT_MOC_LITERAL(96, 1339, 13),
+QT_MOC_LITERAL(97, 1353, 7),
+QT_MOC_LITERAL(98, 1361, 24),
+QT_MOC_LITERAL(99, 1386, 29),
+QT_MOC_LITERAL(100, 1416, 20),
+QT_MOC_LITERAL(101, 1437, 4),
+QT_MOC_LITERAL(102, 1442, 3),
+QT_MOC_LITERAL(103, 1446, 8),
+QT_MOC_LITERAL(104, 1455, 3),
+QT_MOC_LITERAL(105, 1459, 27),
+QT_MOC_LITERAL(106, 1487, 24),
+QT_MOC_LITERAL(107, 1512, 4),
+QT_MOC_LITERAL(108, 1517, 20)
+    },
+    "qpdfview::DocumentView\0documentChanged\0"
+    "\0documentModified\0numberOfPagesChanged\0"
+    "numberOfPages\0currentPageChanged\0"
+    "currentPage\0trackChange\0canJumpChanged\0"
+    "backward\0forward\0continuousModeChanged\0"
+    "continuousMode\0layoutModeChanged\0"
+    "LayoutMode\0layoutMode\0rightToLeftModeChanged\0"
+    "rightToLeftMode\0scaleModeChanged\0"
+    "ScaleMode\0scaleMode\0scaleFactorChanged\0"
+    "scaleFactor\0rotationChanged\0Rotation\0"
+    "rotation\0linkClicked\0page\0newTab\0"
+    "filePath\0renderFlagsChanged\0"
+    "qpdfview::RenderFlags\0renderFlags\0"
+    "invertColorsChanged\0invertColors\0"
+    "convertToGrayscaleChanged\0convertToGrayscale\0"
+    "trimMarginsChanged\0trimMargins\0"
+    "compositionModeChanged\0CompositionMode\0"
+    "compositionMode\0highlightAllChanged\0"
+    "highlightAll\0rubberBandModeChanged\0"
+    "RubberBandMode\0rubberBandMode\0"
+    "searchFinished\0searchProgressChanged\0"
+    "progress\0show\0open\0refresh\0save\0"
+    "withChanges\0print\0QPrinter*\0printer\0"
+    "PrintOptions\0printOptions\0previousPage\0"
+    "nextPage\0firstPage\0lastPage\0jumpToPage\0"
+    "newLeft\0newTop\0canJumpBackward\0"
+    "jumpBackward\0canJumpForward\0jumpForward\0"
+    "temporaryHighlight\0highlight\0startSearch\0"
+    "text\0matchCase\0wholeWords\0cancelSearch\0"
+    "clearResults\0findPrevious\0findNext\0"
+    "findResult\0index\0zoomIn\0zoomOut\0"
+    "originalSize\0rotateLeft\0rotateRight\0"
+    "startPresentation\0on_verticalScrollBar_valueChanged\0"
+    "on_autoRefresh_timeout\0on_prefetch_timeout\0"
+    "on_temporaryHighlight_timeout\0"
+    "on_searchTask_progressChanged\0"
+    "on_searchTask_resultsReady\0QList<QRectF>\0"
+    "results\0on_pages_cropRectChanged\0"
+    "on_thumbnails_cropRectChanged\0"
+    "on_pages_linkClicked\0left\0top\0fileName\0"
+    "url\0on_pages_rubberBandFinished\0"
+    "on_pages_zoomToSelection\0rect\0"
+    "on_pages_wasModified"
+};
+#undef QT_MOC_LITERAL
+
 static const uint qt_meta_data_qpdfview__DocumentView[] = {
 
  // content:
-       6,       // revision
+       7,       // revision
        0,       // classname
        0,    0, // classinfo
       68,   14, // methods
@@ -29,148 +199,156 @@ static const uint qt_meta_data_qpdfview__DocumentView[] = {
        0,       // flags
       23,       // signalCount
 
- // signals: signature, parameters, type, tag, flags
-      24,   23,   23,   23, 0x05,
-      42,   23,   23,   23, 0x05,
-      75,   61,   23,   23, 0x05,
-     125,  101,   23,   23, 0x05,
-     166,  154,   23,   23, 0x25,
-     207,  190,   23,   23, 0x05,
-     248,  233,   23,   23, 0x05,
-     287,  276,   23,   23, 0x05,
-     333,  317,   23,   23, 0x05,
-     372,  362,   23,   23, 0x05,
-     412,  400,   23,   23, 0x05,
-     447,  438,   23,   23, 0x05,
-     478,  473,   23,   23, 0x05,
-     516,  495,   23,   23, 0x05,
-     558,  546,   23,   23, 0x05,
-     613,  600,   23,   23, 0x05,
-     658,  639,   23,   23, 0x05,
-     702,  690,   23,   23, 0x05,
-     743,  727,   23,   23, 0x05,
-     796,  783,   23,   23, 0x05,
-     837,  822,   23,   23, 0x05,
-     875,   23,   23,   23, 0x05,
-     901,  892,   23,   23, 0x05,
+ // signals: name, argc, parameters, tag, flags
+       1,    0,  354,    2, 0x06 /* Public */,
+       3,    0,  355,    2, 0x06 /* Public */,
+       4,    1,  356,    2, 0x06 /* Public */,
+       6,    2,  359,    2, 0x06 /* Public */,
+       6,    1,  364,    2, 0x26 /* Public | MethodCloned */,
+       9,    2,  367,    2, 0x06 /* Public */,
+      12,    1,  372,    2, 0x06 /* Public */,
+      14,    1,  375,    2, 0x06 /* Public */,
+      17,    1,  378,    2, 0x06 /* Public */,
+      19,    1,  381,    2, 0x06 /* Public */,
+      22,    1,  384,    2, 0x06 /* Public */,
+      24,    1,  387,    2, 0x06 /* Public */,
+      27,    1,  390,    2, 0x06 /* Public */,
+      27,    3,  393,    2, 0x06 /* Public */,
+      31,    1,  400,    2, 0x06 /* Public */,
+      34,    1,  403,    2, 0x06 /* Public */,
+      36,    1,  406,    2, 0x06 /* Public */,
+      38,    1,  409,    2, 0x06 /* Public */,
+      40,    1,  412,    2, 0x06 /* Public */,
+      43,    1,  415,    2, 0x06 /* Public */,
+      45,    1,  418,    2, 0x06 /* Public */,
+      48,    0,  421,    2, 0x06 /* Public */,
+      49,    1,  422,    2, 0x06 /* Public */,
 
- // slots: signature, parameters, type, tag, flags
-     928,   23,   23,   23, 0x0a,
-     949,  940,  935,   23, 0x0a,
-     963,   23,  935,   23, 0x0a,
-     994,  973,  935,   23, 0x0a,
-    1034, 1013,  935,   23, 0x0a,
-    1072, 1064,  935,   23, 0x2a,
-    1089,   23,   23,   23, 0x0a,
-    1104,   23,   23,   23, 0x0a,
-    1115,   23,   23,   23, 0x0a,
-    1127,   23,   23,   23, 0x0a,
-    1170, 1138,   23,   23, 0x0a,
-    1228, 1203,   23,   23, 0x2a,
-    1272, 1255,   23,   23, 0x2a,
-    1293,  473,   23,   23, 0x2a,
-    1309,   23,  935,   23, 0x0a,
-    1327,   23,   23,   23, 0x0a,
-    1342,   23,  935,   23, 0x0a,
-    1359,   23,   23,   23, 0x0a,
-    1388, 1373,   23,   23, 0x0a,
-    1445, 1419,   23,   23, 0x0a,
-    1476,   23,   23,   23, 0x0a,
-    1491,   23,   23,   23, 0x0a,
-    1506,   23,   23,   23, 0x0a,
-    1521,   23,   23,   23, 0x0a,
-    1538, 1532,   23,   23, 0x0a,
-    1562,   23,   23,   23, 0x0a,
-    1571,   23,   23,   23, 0x0a,
-    1581,   23,   23,   23, 0x0a,
-    1596,   23,   23,   23, 0x0a,
-    1609,   23,   23,   23, 0x0a,
-    1623,   23,   23,   23, 0x0a,
-    1643,   23,   23,   23, 0x09,
-    1679,   23,   23,   23, 0x09,
-    1704,   23,   23,   23, 0x09,
-    1726,   23,   23,   23, 0x09,
-    1758,  892,   23,   23, 0x09,
-    1807, 1793,   23,   23, 0x09,
-    1853,   23,   23,   23, 0x09,
-    1880,   23,   23,   23, 0x09,
-    1933, 1912,   23,   23, 0x09,
-    1997, 1976,   23,   23, 0x09,
-    2040, 2036,   23,   23, 0x09,
-    2070,   23,   23,   23, 0x09,
-    2110, 2100,   23,   23, 0x09,
-    2147,   23,   23,   23, 0x09,
+ // slots: name, argc, parameters, tag, flags
+      51,    0,  425,    2, 0x0a /* Public */,
+      52,    1,  426,    2, 0x0a /* Public */,
+      53,    0,  429,    2, 0x0a /* Public */,
+      54,    2,  430,    2, 0x0a /* Public */,
+      56,    2,  435,    2, 0x0a /* Public */,
+      56,    1,  440,    2, 0x2a /* Public | MethodCloned */,
+      61,    0,  443,    2, 0x0a /* Public */,
+      62,    0,  444,    2, 0x0a /* Public */,
+      63,    0,  445,    2, 0x0a /* Public */,
+      64,    0,  446,    2, 0x0a /* Public */,
+      65,    4,  447,    2, 0x0a /* Public */,
+      65,    3,  456,    2, 0x2a /* Public | MethodCloned */,
+      65,    2,  463,    2, 0x2a /* Public | MethodCloned */,
+      65,    1,  468,    2, 0x2a /* Public | MethodCloned */,
+      68,    0,  471,    2, 0x0a /* Public */,
+      69,    0,  472,    2, 0x0a /* Public */,
+      70,    0,  473,    2, 0x0a /* Public */,
+      71,    0,  474,    2, 0x0a /* Public */,
+      72,    2,  475,    2, 0x0a /* Public */,
+      74,    3,  480,    2, 0x0a /* Public */,
+      78,    0,  487,    2, 0x0a /* Public */,
+      79,    0,  488,    2, 0x0a /* Public */,
+      80,    0,  489,    2, 0x0a /* Public */,
+      81,    0,  490,    2, 0x0a /* Public */,
+      82,    1,  491,    2, 0x0a /* Public */,
+      84,    0,  494,    2, 0x0a /* Public */,
+      85,    0,  495,    2, 0x0a /* Public */,
+      86,    0,  496,    2, 0x0a /* Public */,
+      87,    0,  497,    2, 0x0a /* Public */,
+      88,    0,  498,    2, 0x0a /* Public */,
+      89,    0,  499,    2, 0x0a /* Public */,
+      90,    0,  500,    2, 0x09 /* Protected */,
+      91,    0,  501,    2, 0x09 /* Protected */,
+      92,    0,  502,    2, 0x09 /* Protected */,
+      93,    0,  503,    2, 0x09 /* Protected */,
+      94,    1,  504,    2, 0x09 /* Protected */,
+      95,    2,  507,    2, 0x09 /* Protected */,
+      98,    0,  512,    2, 0x09 /* Protected */,
+      99,    0,  513,    2, 0x09 /* Protected */,
+     100,    4,  514,    2, 0x09 /* Protected */,
+     100,    3,  523,    2, 0x09 /* Protected */,
+     100,    1,  530,    2, 0x09 /* Protected */,
+     105,    0,  533,    2, 0x09 /* Protected */,
+     106,    2,  534,    2, 0x09 /* Protected */,
+     108,    0,  539,    2, 0x09 /* Protected */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,    5,
+    QMetaType::Void, QMetaType::Int, QMetaType::Bool,    7,    8,
+    QMetaType::Void, QMetaType::Int,    7,
+    QMetaType::Void, QMetaType::Bool, QMetaType::Bool,   10,   11,
+    QMetaType::Void, QMetaType::Bool,   13,
+    QMetaType::Void, 0x80000000 | 15,   16,
+    QMetaType::Void, QMetaType::Bool,   18,
+    QMetaType::Void, 0x80000000 | 20,   21,
+    QMetaType::Void, QMetaType::QReal,   23,
+    QMetaType::Void, 0x80000000 | 25,   26,
+    QMetaType::Void, QMetaType::Int,   28,
+    QMetaType::Void, QMetaType::Bool, QMetaType::QString, QMetaType::Int,   29,   30,   28,
+    QMetaType::Void, 0x80000000 | 32,   33,
+    QMetaType::Void, QMetaType::Bool,   35,
+    QMetaType::Void, QMetaType::Bool,   37,
+    QMetaType::Void, QMetaType::Bool,   39,
+    QMetaType::Void, 0x80000000 | 41,   42,
+    QMetaType::Void, QMetaType::Bool,   44,
+    QMetaType::Void, 0x80000000 | 46,   47,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,   50,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Bool, QMetaType::QString,   30,
+    QMetaType::Bool,
+    QMetaType::Bool, QMetaType::QString, QMetaType::Bool,   30,   55,
+    QMetaType::Bool, 0x80000000 | 57, 0x80000000 | 59,   58,   60,
+    QMetaType::Bool, 0x80000000 | 57,   58,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::Bool, QMetaType::QReal, QMetaType::QReal,   28,    8,   66,   67,
+    QMetaType::Void, QMetaType::Int, QMetaType::Bool, QMetaType::QReal,   28,    8,   66,
+    QMetaType::Void, QMetaType::Int, QMetaType::Bool,   28,    8,
+    QMetaType::Void, QMetaType::Int,   28,
+    QMetaType::Bool,
+    QMetaType::Void,
+    QMetaType::Bool,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::QRectF,   28,   73,
+    QMetaType::Void, QMetaType::QString, QMetaType::Bool, QMetaType::Bool,   75,   76,   77,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QModelIndex,   83,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,   50,
+    QMetaType::Void, QMetaType::Int, 0x80000000 | 96,   83,   97,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Bool, QMetaType::Int, QMetaType::QReal, QMetaType::QReal,   29,   28,  101,  102,
+    QMetaType::Void, QMetaType::Bool, QMetaType::QString, QMetaType::Int,   29,  103,   28,
+    QMetaType::Void, QMetaType::QString,  104,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::QRectF,   28,  107,
+    QMetaType::Void,
 
        0        // eod
-};
-
-static const char qt_meta_stringdata_qpdfview__DocumentView[] = {
-    "qpdfview::DocumentView\0\0documentChanged()\0"
-    "documentModified()\0numberOfPages\0"
-    "numberOfPagesChanged(int)\0"
-    "currentPage,trackChange\0"
-    "currentPageChanged(int,bool)\0currentPage\0"
-    "currentPageChanged(int)\0backward,forward\0"
-    "canJumpChanged(bool,bool)\0continuousMode\0"
-    "continuousModeChanged(bool)\0layoutMode\0"
-    "layoutModeChanged(LayoutMode)\0"
-    "rightToLeftMode\0rightToLeftModeChanged(bool)\0"
-    "scaleMode\0scaleModeChanged(ScaleMode)\0"
-    "scaleFactor\0scaleFactorChanged(qreal)\0"
-    "rotation\0rotationChanged(Rotation)\0"
-    "page\0linkClicked(int)\0newTab,filePath,page\0"
-    "linkClicked(bool,QString,int)\0renderFlags\0"
-    "renderFlagsChanged(qpdfview::RenderFlags)\0"
-    "invertColors\0invertColorsChanged(bool)\0"
-    "convertToGrayscale\0convertToGrayscaleChanged(bool)\0"
-    "trimMargins\0trimMarginsChanged(bool)\0"
-    "compositionMode\0compositionModeChanged(CompositionMode)\0"
-    "highlightAll\0highlightAllChanged(bool)\0"
-    "rubberBandMode\0rubberBandModeChanged(RubberBandMode)\0"
-    "searchFinished()\0progress\0"
-    "searchProgressChanged(int)\0show()\0"
-    "bool\0filePath\0open(QString)\0refresh()\0"
-    "filePath,withChanges\0save(QString,bool)\0"
-    "printer,printOptions\0print(QPrinter*,PrintOptions)\0"
-    "printer\0print(QPrinter*)\0previousPage()\0"
-    "nextPage()\0firstPage()\0lastPage()\0"
-    "page,trackChange,newLeft,newTop\0"
-    "jumpToPage(int,bool,qreal,qreal)\0"
-    "page,trackChange,newLeft\0"
-    "jumpToPage(int,bool,qreal)\0page,trackChange\0"
-    "jumpToPage(int,bool)\0jumpToPage(int)\0"
-    "canJumpBackward()\0jumpBackward()\0"
-    "canJumpForward()\0jumpForward()\0"
-    "page,highlight\0temporaryHighlight(int,QRectF)\0"
-    "text,matchCase,wholeWords\0"
-    "startSearch(QString,bool,bool)\0"
-    "cancelSearch()\0clearResults()\0"
-    "findPrevious()\0findNext()\0index\0"
-    "findResult(QModelIndex)\0zoomIn()\0"
-    "zoomOut()\0originalSize()\0rotateLeft()\0"
-    "rotateRight()\0startPresentation()\0"
-    "on_verticalScrollBar_valueChanged()\0"
-    "on_autoRefresh_timeout()\0on_prefetch_timeout()\0"
-    "on_temporaryHighlight_timeout()\0"
-    "on_searchTask_progressChanged(int)\0"
-    "index,results\0"
-    "on_searchTask_resultsReady(int,QList<QRectF>)\0"
-    "on_pages_cropRectChanged()\0"
-    "on_thumbnails_cropRectChanged()\0"
-    "newTab,page,left,top\0"
-    "on_pages_linkClicked(bool,int,qreal,qreal)\0"
-    "newTab,fileName,page\0"
-    "on_pages_linkClicked(bool,QString,int)\0"
-    "url\0on_pages_linkClicked(QString)\0"
-    "on_pages_rubberBandFinished()\0page,rect\0"
-    "on_pages_zoomToSelection(int,QRectF)\0"
-    "on_pages_wasModified()\0"
 };
 
 void qpdfview::DocumentView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        Q_ASSERT(staticMetaObject.cast(_o));
         DocumentView *_t = static_cast<DocumentView *>(_o);
         switch (_id) {
         case 0: _t->documentChanged(); break;
@@ -250,31 +428,170 @@ void qpdfview::DocumentView::qt_static_metacall(QObject *_o, QMetaObject::Call _
         case 67: _t->on_pages_wasModified(); break;
         default: ;
         }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 59:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QList<QRectF> >(); break;
+            }
+            break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        void **func = reinterpret_cast<void **>(_a[1]);
+        {
+            typedef void (DocumentView::*_t)();
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::documentChanged)) {
+                *result = 0;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)();
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::documentModified)) {
+                *result = 1;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(int );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::numberOfPagesChanged)) {
+                *result = 2;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(int , bool );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::currentPageChanged)) {
+                *result = 3;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(bool , bool );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::canJumpChanged)) {
+                *result = 5;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(bool );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::continuousModeChanged)) {
+                *result = 6;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(LayoutMode );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::layoutModeChanged)) {
+                *result = 7;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(bool );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::rightToLeftModeChanged)) {
+                *result = 8;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(ScaleMode );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::scaleModeChanged)) {
+                *result = 9;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(qreal );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::scaleFactorChanged)) {
+                *result = 10;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(Rotation );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::rotationChanged)) {
+                *result = 11;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(int );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::linkClicked)) {
+                *result = 12;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(bool , const QString & , int );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::linkClicked)) {
+                *result = 13;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(qpdfview::RenderFlags );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::renderFlagsChanged)) {
+                *result = 14;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(bool );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::invertColorsChanged)) {
+                *result = 15;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(bool );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::convertToGrayscaleChanged)) {
+                *result = 16;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(bool );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::trimMarginsChanged)) {
+                *result = 17;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(CompositionMode );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::compositionModeChanged)) {
+                *result = 18;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(bool );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::highlightAllChanged)) {
+                *result = 19;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(RubberBandMode );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::rubberBandModeChanged)) {
+                *result = 20;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)();
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::searchFinished)) {
+                *result = 21;
+            }
+        }
+        {
+            typedef void (DocumentView::*_t)(int );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&DocumentView::searchProgressChanged)) {
+                *result = 22;
+            }
+        }
     }
 }
 
-const QMetaObjectExtraData qpdfview::DocumentView::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject qpdfview::DocumentView::staticMetaObject = {
-    { &QGraphicsView::staticMetaObject, qt_meta_stringdata_qpdfview__DocumentView,
-      qt_meta_data_qpdfview__DocumentView, &staticMetaObjectExtraData }
+    { &QGraphicsView::staticMetaObject, qt_meta_stringdata_qpdfview__DocumentView.data,
+      qt_meta_data_qpdfview__DocumentView,  qt_static_metacall, 0, 0}
 };
 
-#ifdef Q_NO_DATA_RELOCATION
-const QMetaObject &qpdfview::DocumentView::getStaticMetaObject() { return staticMetaObject; }
-#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *qpdfview::DocumentView::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
 void *qpdfview::DocumentView::qt_metacast(const char *_clname)
 {
     if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__DocumentView))
+    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__DocumentView.stringdata))
         return static_cast<void*>(const_cast< DocumentView*>(this));
     return QGraphicsView::qt_metacast(_clname);
 }
@@ -285,6 +602,10 @@ int qpdfview::DocumentView::qt_metacall(QMetaObject::Call _c, int _id, void **_a
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 68)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 68;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 68)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 68;

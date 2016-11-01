@@ -1,25 +1,63 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'bookmarkmenu.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
 #include "../sources/bookmarkmenu.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'bookmarkmenu.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.6. It"
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+struct qt_meta_stringdata_qpdfview__BookmarkMenu_t {
+    QByteArrayData data[14];
+    char stringdata[230];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_qpdfview__BookmarkMenu_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_qpdfview__BookmarkMenu_t qt_meta_stringdata_qpdfview__BookmarkMenu = {
+    {
+QT_MOC_LITERAL(0, 0, 22),
+QT_MOC_LITERAL(1, 23, 13),
+QT_MOC_LITERAL(2, 37, 0),
+QT_MOC_LITERAL(3, 38, 8),
+QT_MOC_LITERAL(4, 47, 21),
+QT_MOC_LITERAL(5, 69, 19),
+QT_MOC_LITERAL(6, 89, 4),
+QT_MOC_LITERAL(7, 94, 23),
+QT_MOC_LITERAL(8, 118, 17),
+QT_MOC_LITERAL(9, 136, 25),
+QT_MOC_LITERAL(10, 162, 23),
+QT_MOC_LITERAL(11, 186, 8),
+QT_MOC_LITERAL(12, 195, 6),
+QT_MOC_LITERAL(13, 202, 27)
+    },
+    "qpdfview::BookmarkMenu\0openTriggered\0"
+    "\0filePath\0openInNewTabTriggered\0"
+    "jumpToPageTriggered\0page\0"
+    "removeBookmarkTriggered\0on_open_triggered\0"
+    "on_openInNewTab_triggered\0"
+    "on_jumpToPage_triggered\0QAction*\0"
+    "action\0on_removeBookmark_triggered"
+};
+#undef QT_MOC_LITERAL
+
 static const uint qt_meta_data_qpdfview__BookmarkMenu[] = {
 
  // content:
-       6,       // revision
+       7,       // revision
        0,       // classname
        0,    0, // classinfo
        8,   14, // methods
@@ -29,36 +67,36 @@ static const uint qt_meta_data_qpdfview__BookmarkMenu[] = {
        0,       // flags
        4,       // signalCount
 
- // signals: signature, parameters, type, tag, flags
-      33,   24,   23,   23, 0x05,
-      56,   24,   23,   23, 0x05,
-     101,   87,   23,   23, 0x05,
-     134,   24,   23,   23, 0x05,
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   54,    2, 0x06 /* Public */,
+       4,    1,   57,    2, 0x06 /* Public */,
+       5,    2,   60,    2, 0x06 /* Public */,
+       7,    1,   65,    2, 0x06 /* Public */,
 
- // slots: signature, parameters, type, tag, flags
-     167,   23,   23,   23, 0x09,
-     187,   23,   23,   23, 0x09,
-     222,  215,   23,   23, 0x09,
-     256,   23,   23,   23, 0x09,
+ // slots: name, argc, parameters, tag, flags
+       8,    0,   68,    2, 0x09 /* Protected */,
+       9,    0,   69,    2, 0x09 /* Protected */,
+      10,    1,   70,    2, 0x09 /* Protected */,
+      13,    0,   73,    2, 0x09 /* Protected */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QString,    3,
+    QMetaType::Void, QMetaType::QString,    3,
+    QMetaType::Void, QMetaType::QString, QMetaType::Int,    3,    6,
+    QMetaType::Void, QMetaType::QString,    3,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 11,   12,
+    QMetaType::Void,
 
        0        // eod
-};
-
-static const char qt_meta_stringdata_qpdfview__BookmarkMenu[] = {
-    "qpdfview::BookmarkMenu\0\0filePath\0"
-    "openTriggered(QString)\0"
-    "openInNewTabTriggered(QString)\0"
-    "filePath,page\0jumpToPageTriggered(QString,int)\0"
-    "removeBookmarkTriggered(QString)\0"
-    "on_open_triggered()\0on_openInNewTab_triggered()\0"
-    "action\0on_jumpToPage_triggered(QAction*)\0"
-    "on_removeBookmark_triggered()\0"
 };
 
 void qpdfview::BookmarkMenu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        Q_ASSERT(staticMetaObject.cast(_o));
         BookmarkMenu *_t = static_cast<BookmarkMenu *>(_o);
         switch (_id) {
         case 0: _t->openTriggered((*reinterpret_cast< const QString(*)>(_a[1]))); break;
@@ -71,31 +109,62 @@ void qpdfview::BookmarkMenu::qt_static_metacall(QObject *_o, QMetaObject::Call _
         case 7: _t->on_removeBookmark_triggered(); break;
         default: ;
         }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 6:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QAction* >(); break;
+            }
+            break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        void **func = reinterpret_cast<void **>(_a[1]);
+        {
+            typedef void (BookmarkMenu::*_t)(const QString & );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&BookmarkMenu::openTriggered)) {
+                *result = 0;
+            }
+        }
+        {
+            typedef void (BookmarkMenu::*_t)(const QString & );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&BookmarkMenu::openInNewTabTriggered)) {
+                *result = 1;
+            }
+        }
+        {
+            typedef void (BookmarkMenu::*_t)(const QString & , int );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&BookmarkMenu::jumpToPageTriggered)) {
+                *result = 2;
+            }
+        }
+        {
+            typedef void (BookmarkMenu::*_t)(const QString & );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&BookmarkMenu::removeBookmarkTriggered)) {
+                *result = 3;
+            }
+        }
     }
 }
 
-const QMetaObjectExtraData qpdfview::BookmarkMenu::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject qpdfview::BookmarkMenu::staticMetaObject = {
-    { &QMenu::staticMetaObject, qt_meta_stringdata_qpdfview__BookmarkMenu,
-      qt_meta_data_qpdfview__BookmarkMenu, &staticMetaObjectExtraData }
+    { &QMenu::staticMetaObject, qt_meta_stringdata_qpdfview__BookmarkMenu.data,
+      qt_meta_data_qpdfview__BookmarkMenu,  qt_static_metacall, 0, 0}
 };
 
-#ifdef Q_NO_DATA_RELOCATION
-const QMetaObject &qpdfview::BookmarkMenu::getStaticMetaObject() { return staticMetaObject; }
-#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *qpdfview::BookmarkMenu::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
 void *qpdfview::BookmarkMenu::qt_metacast(const char *_clname)
 {
     if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__BookmarkMenu))
+    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__BookmarkMenu.stringdata))
         return static_cast<void*>(const_cast< BookmarkMenu*>(this));
     return QMenu::qt_metacast(_clname);
 }
@@ -106,6 +175,10 @@ int qpdfview::BookmarkMenu::qt_metacall(QMetaObject::Call _c, int _id, void **_a
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 8)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 8;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 8;

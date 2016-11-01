@@ -1,25 +1,45 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'pdfmodel.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
 #include "../sources/pdfmodel.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'pdfmodel.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.6. It"
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+struct qt_meta_stringdata_qpdfview__Model__PdfAnnotation_t {
+    QByteArrayData data[1];
+    char stringdata[31];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_qpdfview__Model__PdfAnnotation_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_qpdfview__Model__PdfAnnotation_t qt_meta_stringdata_qpdfview__Model__PdfAnnotation = {
+    {
+QT_MOC_LITERAL(0, 0, 30)
+    },
+    "qpdfview::Model::PdfAnnotation"
+};
+#undef QT_MOC_LITERAL
+
 static const uint qt_meta_data_qpdfview__Model__PdfAnnotation[] = {
 
  // content:
-       6,       // revision
+       7,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -32,10 +52,6 @@ static const uint qt_meta_data_qpdfview__Model__PdfAnnotation[] = {
        0        // eod
 };
 
-static const char qt_meta_stringdata_qpdfview__Model__PdfAnnotation[] = {
-    "qpdfview::Model::PdfAnnotation\0"
-};
-
 void qpdfview::Model::PdfAnnotation::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
@@ -44,28 +60,21 @@ void qpdfview::Model::PdfAnnotation::qt_static_metacall(QObject *_o, QMetaObject
     Q_UNUSED(_a);
 }
 
-const QMetaObjectExtraData qpdfview::Model::PdfAnnotation::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject qpdfview::Model::PdfAnnotation::staticMetaObject = {
-    { &Annotation::staticMetaObject, qt_meta_stringdata_qpdfview__Model__PdfAnnotation,
-      qt_meta_data_qpdfview__Model__PdfAnnotation, &staticMetaObjectExtraData }
+    { &Annotation::staticMetaObject, qt_meta_stringdata_qpdfview__Model__PdfAnnotation.data,
+      qt_meta_data_qpdfview__Model__PdfAnnotation,  qt_static_metacall, 0, 0}
 };
 
-#ifdef Q_NO_DATA_RELOCATION
-const QMetaObject &qpdfview::Model::PdfAnnotation::getStaticMetaObject() { return staticMetaObject; }
-#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *qpdfview::Model::PdfAnnotation::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
 void *qpdfview::Model::PdfAnnotation::qt_metacast(const char *_clname)
 {
     if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__Model__PdfAnnotation))
+    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__Model__PdfAnnotation.stringdata))
         return static_cast<void*>(const_cast< PdfAnnotation*>(this));
     return Annotation::qt_metacast(_clname);
 }
@@ -77,10 +86,27 @@ int qpdfview::Model::PdfAnnotation::qt_metacall(QMetaObject::Call _c, int _id, v
         return _id;
     return _id;
 }
+struct qt_meta_stringdata_qpdfview__Model__PdfFormField_t {
+    QByteArrayData data[1];
+    char stringdata[30];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_qpdfview__Model__PdfFormField_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_qpdfview__Model__PdfFormField_t qt_meta_stringdata_qpdfview__Model__PdfFormField = {
+    {
+QT_MOC_LITERAL(0, 0, 29)
+    },
+    "qpdfview::Model::PdfFormField"
+};
+#undef QT_MOC_LITERAL
+
 static const uint qt_meta_data_qpdfview__Model__PdfFormField[] = {
 
  // content:
-       6,       // revision
+       7,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -93,10 +119,6 @@ static const uint qt_meta_data_qpdfview__Model__PdfFormField[] = {
        0        // eod
 };
 
-static const char qt_meta_stringdata_qpdfview__Model__PdfFormField[] = {
-    "qpdfview::Model::PdfFormField\0"
-};
-
 void qpdfview::Model::PdfFormField::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
@@ -105,28 +127,21 @@ void qpdfview::Model::PdfFormField::qt_static_metacall(QObject *_o, QMetaObject:
     Q_UNUSED(_a);
 }
 
-const QMetaObjectExtraData qpdfview::Model::PdfFormField::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject qpdfview::Model::PdfFormField::staticMetaObject = {
-    { &FormField::staticMetaObject, qt_meta_stringdata_qpdfview__Model__PdfFormField,
-      qt_meta_data_qpdfview__Model__PdfFormField, &staticMetaObjectExtraData }
+    { &FormField::staticMetaObject, qt_meta_stringdata_qpdfview__Model__PdfFormField.data,
+      qt_meta_data_qpdfview__Model__PdfFormField,  qt_static_metacall, 0, 0}
 };
 
-#ifdef Q_NO_DATA_RELOCATION
-const QMetaObject &qpdfview::Model::PdfFormField::getStaticMetaObject() { return staticMetaObject; }
-#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *qpdfview::Model::PdfFormField::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
 void *qpdfview::Model::PdfFormField::qt_metacast(const char *_clname)
 {
     if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__Model__PdfFormField))
+    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__Model__PdfFormField.stringdata))
         return static_cast<void*>(const_cast< PdfFormField*>(this));
     return FormField::qt_metacast(_clname);
 }
@@ -138,10 +153,27 @@ int qpdfview::Model::PdfFormField::qt_metacall(QMetaObject::Call _c, int _id, vo
         return _id;
     return _id;
 }
+struct qt_meta_stringdata_qpdfview__PdfSettingsWidget_t {
+    QByteArrayData data[1];
+    char stringdata[28];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_qpdfview__PdfSettingsWidget_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_qpdfview__PdfSettingsWidget_t qt_meta_stringdata_qpdfview__PdfSettingsWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 27)
+    },
+    "qpdfview::PdfSettingsWidget"
+};
+#undef QT_MOC_LITERAL
+
 static const uint qt_meta_data_qpdfview__PdfSettingsWidget[] = {
 
  // content:
-       6,       // revision
+       7,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -154,10 +186,6 @@ static const uint qt_meta_data_qpdfview__PdfSettingsWidget[] = {
        0        // eod
 };
 
-static const char qt_meta_stringdata_qpdfview__PdfSettingsWidget[] = {
-    "qpdfview::PdfSettingsWidget\0"
-};
-
 void qpdfview::PdfSettingsWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
@@ -166,28 +194,21 @@ void qpdfview::PdfSettingsWidget::qt_static_metacall(QObject *_o, QMetaObject::C
     Q_UNUSED(_a);
 }
 
-const QMetaObjectExtraData qpdfview::PdfSettingsWidget::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject qpdfview::PdfSettingsWidget::staticMetaObject = {
-    { &SettingsWidget::staticMetaObject, qt_meta_stringdata_qpdfview__PdfSettingsWidget,
-      qt_meta_data_qpdfview__PdfSettingsWidget, &staticMetaObjectExtraData }
+    { &SettingsWidget::staticMetaObject, qt_meta_stringdata_qpdfview__PdfSettingsWidget.data,
+      qt_meta_data_qpdfview__PdfSettingsWidget,  qt_static_metacall, 0, 0}
 };
 
-#ifdef Q_NO_DATA_RELOCATION
-const QMetaObject &qpdfview::PdfSettingsWidget::getStaticMetaObject() { return staticMetaObject; }
-#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *qpdfview::PdfSettingsWidget::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
 void *qpdfview::PdfSettingsWidget::qt_metacast(const char *_clname)
 {
     if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__PdfSettingsWidget))
+    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__PdfSettingsWidget.stringdata))
         return static_cast<void*>(const_cast< PdfSettingsWidget*>(this));
     return SettingsWidget::qt_metacast(_clname);
 }
@@ -199,10 +220,27 @@ int qpdfview::PdfSettingsWidget::qt_metacall(QMetaObject::Call _c, int _id, void
         return _id;
     return _id;
 }
+struct qt_meta_stringdata_qpdfview__PdfPlugin_t {
+    QByteArrayData data[1];
+    char stringdata[20];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_qpdfview__PdfPlugin_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_qpdfview__PdfPlugin_t qt_meta_stringdata_qpdfview__PdfPlugin = {
+    {
+QT_MOC_LITERAL(0, 0, 19)
+    },
+    "qpdfview::PdfPlugin"
+};
+#undef QT_MOC_LITERAL
+
 static const uint qt_meta_data_qpdfview__PdfPlugin[] = {
 
  // content:
-       6,       // revision
+       7,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -215,10 +253,6 @@ static const uint qt_meta_data_qpdfview__PdfPlugin[] = {
        0        // eod
 };
 
-static const char qt_meta_stringdata_qpdfview__PdfPlugin[] = {
-    "qpdfview::PdfPlugin\0"
-};
-
 void qpdfview::PdfPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
@@ -227,28 +261,21 @@ void qpdfview::PdfPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
     Q_UNUSED(_a);
 }
 
-const QMetaObjectExtraData qpdfview::PdfPlugin::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject qpdfview::PdfPlugin::staticMetaObject = {
-    { &QObject::staticMetaObject, qt_meta_stringdata_qpdfview__PdfPlugin,
-      qt_meta_data_qpdfview__PdfPlugin, &staticMetaObjectExtraData }
+    { &QObject::staticMetaObject, qt_meta_stringdata_qpdfview__PdfPlugin.data,
+      qt_meta_data_qpdfview__PdfPlugin,  qt_static_metacall, 0, 0}
 };
 
-#ifdef Q_NO_DATA_RELOCATION
-const QMetaObject &qpdfview::PdfPlugin::getStaticMetaObject() { return staticMetaObject; }
-#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *qpdfview::PdfPlugin::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
 void *qpdfview::PdfPlugin::qt_metacast(const char *_clname)
 {
     if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__PdfPlugin))
+    if (!strcmp(_clname, qt_meta_stringdata_qpdfview__PdfPlugin.stringdata))
         return static_cast<void*>(const_cast< PdfPlugin*>(this));
     if (!strcmp(_clname, "Plugin"))
         return static_cast< Plugin*>(const_cast< PdfPlugin*>(this));
@@ -264,4 +291,65 @@ int qpdfview::PdfPlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         return _id;
     return _id;
 }
+
+QT_PLUGIN_METADATA_SECTION const uint qt_section_alignment_dummy = 42;
+
+#ifdef QT_NO_DEBUG
+
+QT_PLUGIN_METADATA_SECTION
+static const unsigned char qt_pluginMetaData[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', ' ',
+    0x71, 0x62, 0x6a, 0x73, 0x01, 0x00, 0x00, 0x00,
+    0x98, 0x00, 0x00, 0x00, 0x0b, 0x00, 0x00, 0x00,
+    0x84, 0x00, 0x00, 0x00, 0x1b, 0x03, 0x00, 0x00,
+    0x03, 0x00, 0x49, 0x49, 0x44, 0x00, 0x00, 0x00,
+    0x15, 0x00, 0x6c, 0x6f, 0x63, 0x61, 0x6c, 0x2e,
+    0x71, 0x70, 0x64, 0x66, 0x76, 0x69, 0x65, 0x77,
+    0x2e, 0x50, 0x6c, 0x75, 0x67, 0x69, 0x6e, 0x00,
+    0x1b, 0x08, 0x00, 0x00, 0x09, 0x00, 0x63, 0x6c,
+    0x61, 0x73, 0x73, 0x4e, 0x61, 0x6d, 0x65, 0x00,
+    0x09, 0x00, 0x50, 0x64, 0x66, 0x50, 0x6c, 0x75,
+    0x67, 0x69, 0x6e, 0x00, 0x5a, 0x60, 0xa0, 0x00,
+    0x07, 0x00, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f,
+    0x6e, 0x00, 0x00, 0x00, 0x11, 0x00, 0x00, 0x00,
+    0x05, 0x00, 0x64, 0x65, 0x62, 0x75, 0x67, 0x00,
+    0x15, 0x0f, 0x00, 0x00, 0x08, 0x00, 0x4d, 0x65,
+    0x74, 0x61, 0x44, 0x61, 0x74, 0x61, 0x00, 0x00,
+    0x0c, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+    0x00, 0x00, 0x00, 0x00, 0x0c, 0x00, 0x00, 0x00,
+    0x68, 0x00, 0x00, 0x00, 0x30, 0x00, 0x00, 0x00,
+    0x5c, 0x00, 0x00, 0x00, 0x4c, 0x00, 0x00, 0x00
+};
+
+#else // QT_NO_DEBUG
+
+QT_PLUGIN_METADATA_SECTION
+static const unsigned char qt_pluginMetaData[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', ' ',
+    0x71, 0x62, 0x6a, 0x73, 0x01, 0x00, 0x00, 0x00,
+    0x98, 0x00, 0x00, 0x00, 0x0b, 0x00, 0x00, 0x00,
+    0x84, 0x00, 0x00, 0x00, 0x1b, 0x03, 0x00, 0x00,
+    0x03, 0x00, 0x49, 0x49, 0x44, 0x00, 0x00, 0x00,
+    0x15, 0x00, 0x6c, 0x6f, 0x63, 0x61, 0x6c, 0x2e,
+    0x71, 0x70, 0x64, 0x66, 0x76, 0x69, 0x65, 0x77,
+    0x2e, 0x50, 0x6c, 0x75, 0x67, 0x69, 0x6e, 0x00,
+    0x15, 0x08, 0x00, 0x00, 0x08, 0x00, 0x4d, 0x65,
+    0x74, 0x61, 0x44, 0x61, 0x74, 0x61, 0x00, 0x00,
+    0x0c, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+    0x00, 0x00, 0x00, 0x00, 0x9b, 0x0b, 0x00, 0x00,
+    0x09, 0x00, 0x63, 0x6c, 0x61, 0x73, 0x73, 0x4e,
+    0x61, 0x6d, 0x65, 0x00, 0x09, 0x00, 0x50, 0x64,
+    0x66, 0x50, 0x6c, 0x75, 0x67, 0x69, 0x6e, 0x00,
+    0x31, 0x00, 0x00, 0x00, 0x05, 0x00, 0x64, 0x65,
+    0x62, 0x75, 0x67, 0x00, 0x5a, 0x60, 0xa0, 0x00,
+    0x07, 0x00, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f,
+    0x6e, 0x00, 0x00, 0x00, 0x0c, 0x00, 0x00, 0x00,
+    0x30, 0x00, 0x00, 0x00, 0x4c, 0x00, 0x00, 0x00,
+    0x68, 0x00, 0x00, 0x00, 0x74, 0x00, 0x00, 0x00
+};
+#endif // QT_NO_DEBUG
+
+using namespace qpdfview;
+QT_MOC_EXPORT_PLUGIN(qpdfview::PdfPlugin, PdfPlugin)
+
 QT_END_MOC_NAMESPACE

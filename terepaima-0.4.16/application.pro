@@ -281,3 +281,6 @@ INCLUDEPATH += /usr/local/include/poppler
 
 win32:RC_FILE = icons/qpdfview_win32.rc
 os2:RC_FILE = icons/qpdfview_os2.rc
+
+
+QMAKE_RPATHDIR += /usr/lib/terepaima
